@@ -97,3 +97,15 @@ print('La cantidad de combinaciones es:', L)
 	Del problema anterior imprima una lista que tenga todos los conjuntos
 	que incluyen un sombrero fedora y tambien despliegue su longitud
 """
+
+print("Combinaciones Fedora 15pts.")
+def contar(L):
+    if not L:
+        return[]
+    if 'Fedora' in L[0]:
+        return [L[0]]+contar(L[1:])
+    else:
+        return contar(L[1:])
+LS= contar(U)
+print("Conjuntos con sombrero Fedora: ", LS)
+print("Numero de conjuntos: ", len (LS))
