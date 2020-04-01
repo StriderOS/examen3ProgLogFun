@@ -1,7 +1,4 @@
-# Objetivos de la repositorio
+# Examen 3 Programación Lógica y Funcional
 
-Este proyecto se encarga de manejar los planes de la liga de la justicia
-
-
-## Notas
-Pueden hacer lo que quieran...
+## Osornio Arteaga Juan Carlos
+## Silva González Alejandro 
