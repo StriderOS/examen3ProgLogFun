@@ -88,5 +88,5 @@ P = ['Negro', 'Azul', 'Café Obscuro', 'Crema']
 A = ['Cinturón', 'Tirantes', 'Lentes', 'Fedora']
 U = [ [a,b,c] for a in C for b in P for c in A]
 print(U)
-K = len(U)
-print('La cantidad de combinaciones es:', K)
+L = len(U)
+print('La cantidad de combinaciones es:', L)
