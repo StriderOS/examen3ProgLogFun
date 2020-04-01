@@ -54,7 +54,7 @@ Bada Boom!!! <generadores> 20 pts
 	#[1,2,"Bada",4,"Boom","Bada",7,8,"Bada","Boom"]
 """
 print("Bada Boom!! 20 pts.")
-def genBadaBoom(N):
+def badaboom(N):
 	i = 1
 	while i <= N:
 		if i % 3 == 0 and i % 5 == 0:
@@ -67,7 +67,7 @@ def genBadaBoom(N):
 			yield i
 		i = i + 1
 
-a = genBadaBoom(10)
+a = badaboom(10)
 p = [e for e in a]
 print(p)
 
@@ -109,3 +109,57 @@ def contar(L):
 LS= contar(U)
 print("Conjuntos con sombrero Fedora: ", LS)
 print("Numero de conjuntos: ", len (LS))
+
+"""
+<Monads>   30 pts
+
+--Lacrimosa - Durch Nacht und Flut --
+
+Die Suche endet jetzt und hier
+Gestein kalt und nass
+Granit in Deiner Brust
+Der Stein der Dich zerdrückt
+Der Fels der Dich umgibt
+Aus dem gehauen Du doch bist
+
+Despiertate te busco
+Mi corazon abreté te libro
+Elevate mi luz y prende mi llama
+Si a ti, yo se, te encontrare
+
+El fragmento anterior es un canción del duo lacrimosa
+
+Usando Monads obtenga la letra
+que menos se repite por cada linea y obtenga la probabilidad de sacar dicha
+letra.
+
+Nota: Pueden ayudarse de funciones recursivas y compresiones de lista.
+
+"""
+
+
+"""
+<Monads>
+
+--Hole in my soul apocalyptica--  20 pts
+
+There's a hole in my heart, in my life, in my way
+And it's filled with regret and all I did, to push you away
+If there's still a place in your life, in your heart for me
+I would do anything, so don't ask me to leave
+
+I've got a hole in my soul where you use to be
+You're the thorn in my heart and you're killing me
+I wish I could go back and do it all differently
+I wish that I'd treated you differently
+'Cause now there's a hole in my soul where you use to be
+
+El fragmento anterior es un canción del grupo apocalyptica
+
+Usando Monads obtenga la letra
+que menos se repite de todo el fragmento y obtenga la probabilidad de sacar dicha
+letra.
+
+Nota: Pueden ayudarse de funciones recursivas y compresiones de lista.
+
+"""
