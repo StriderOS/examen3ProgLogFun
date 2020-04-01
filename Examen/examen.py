@@ -90,3 +90,10 @@ U = [ [a,b,c] for a in C for b in P for c in A]
 print(U)
 L = len(U)
 print('La cantidad de combinaciones es:', L)
+
+"""
+¿Fedora?  <Comprensión de listas >  15 pts
+
+	Del problema anterior imprima una lista que tenga todos los conjuntos
+	que incluyen un sombrero fedora y tambien despliegue su longitud
+"""
